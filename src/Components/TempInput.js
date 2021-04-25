@@ -1,7 +1,4 @@
-import { useState } from "react";
-
-const TempInput = () => {
-  const [inputValue, setInputValue] = useState(0);
+const TempInput = ({ inputValue, setInputValue }) => {
   return (
     <input
       value={inputValue}
